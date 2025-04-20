@@ -7,13 +7,16 @@
 				"modfest.netadmin": "allow",
                 "modfest.organizer": "allow",
                 "worldedit.*": "allow",
-                "scattered_shards.*": "allow"
+                "scattered_shards.*": "allow",
+				"styledchat.set": "allow",
+				"styledchat.clear": "allow"
             },
 			"command_feedback": true,
             "entity_selectors": true,
             "commands": {
 				".*": "allow"
-            }
+            },
+            "worldinajar:create_jar": true
         }
     },
     "participant": {
@@ -28,7 +31,9 @@
                 "scattered_shards.command.uncollect.*": "allow",
                 "scattered_shards.command.block": "allow",
                 "scattered_shards.modify_shard": "allow",
-                "armor_stand_editor.*": "allow"
+                "armor_stand_editor.*": "allow",
+				"styledchat.set": "deny",
+				"styledchat.clear": "deny"
             },
             "command_feedback": true,
             "entity_selectors": false,

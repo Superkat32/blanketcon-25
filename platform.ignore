@@ -2,16 +2,23 @@
 # Each line should contain a submission id. The script will warn you
 # if the id does not refer to a submission
 
+# Handled by accessories + tc-layer
+mods/trinkets.pw.toml
+
 # Per request
 autowhitelist
 hoofprint
 surveyor
 
+# Included manually
+impillagers
+ppetp
+
 # Disorderly mixin https://github.com/Nico44YT/Liby/blob/fabric-1.21.1/src/main/java/nazario/liby/mixin/TagGroupLoaderMixin.java
 #snapshotmc
 
 # Currently broken
-jsonpatcher
+#jsonpatcher
 
 # Currently breaks chunkloading
 colorful-lanterns
